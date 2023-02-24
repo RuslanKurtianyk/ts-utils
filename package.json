@@ -18,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/RuslanKurtianyk/ts-utils/issues"
   },
-  "homepage": "https://github.com/RuslanKurtianyk/ts-utils#readme"
+  "homepage": "https://github.com/RuslanKurtianyk/ts-utils#readme",
+  "engines" : { 
+    "npm" : ">=8.19.2",
+    "node" : ">=18.12.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
 }
