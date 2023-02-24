@@ -4,7 +4,8 @@
   "description": "simple typescript utils",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p ./tsconfig.build.json --outDir dist/"
   },
   "repository": {
     "type": "git",
@@ -19,11 +20,13 @@
     "url": "https://github.com/RuslanKurtianyk/ts-utils/issues"
   },
   "homepage": "https://github.com/RuslanKurtianyk/ts-utils#readme",
-  "engines" : { 
-    "npm" : ">=8.19.2",
-    "node" : ">=18.12.1"
+  "engines": {
+    "npm": ">=8.19.2",
+    "node": ">=18.12.1"
   },
   "devDependencies": {
+    "prettier": "^2.8.4",
+    "tslint": "^6.1.3",
     "typescript": "^4.9.5"
   }
 }

@@ -1,0 +1,19 @@
+{
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    "strict": true,
+    "lib": ["dom", "es2017"],
+    "outDir": "out/",
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "declaration": true,
+    "importHelpers": false,
+    "noEmitHelpers": false,
+    "noEmitOnError": true,
+    "pretty": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "stripInternal": true
+  }
+}
